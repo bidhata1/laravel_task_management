@@ -16,7 +16,7 @@
         <tbody>
             @foreach($users as $user)
                 <tr>
-                    <td><a href="{{ route('users.show', $user->id) }}">{{ $user->firstname }} {{ $user->lastname }}</a></td>
+                    <td><a href="{{ route('users.show', $user->id) }}">{{ $user->name }}</a></td>
                     <td>{{ $user->online_status }}</td>
                     <td>{{ $user->total_tasks_completed }}</td>
                     <td>{{ $user->total_tasks_in_progress }}</td>
