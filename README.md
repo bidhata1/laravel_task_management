@@ -1,13 +1,13 @@
 #command
 
-for frontend 
+#for frontend 
 #npm run dev
 
 #to run the project 
-step-1: create the database and put the db name to .env
-step-2: php artisan migrate
-step-3:  php artisan db:seed
-step-4: php artisan serve
+#step-1: create the database and put the db name to .env
+#step-2: php artisan migrate
+#step-3:  php artisan db:seed
+#step-4: php artisan serve
 
 #api
 #For Admin
